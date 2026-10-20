@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>packhash</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="logo">packhash</span>
+      <span id="version" class="muted"></span>
+      <span id="demo" class="pill warn hidden">demo mode</span>
+    </div>
+    <div id="chain" class="pill">connecting…</div>
+  </header>
+
+  <main>
+    <div id="notice" class="notice hidden"></div>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Sessions</h2>
+        <div class="actions">
+          <label class="btn" for="file">Import capture…</label>
+          <input id="file" type="file" accept=".pcap,.pcapng,.cap" hidden>
+          <button id="refresh" class="btn ghost">Refresh</button>
+        </div>
+      </div>
+      <div id="sessions"></div>
+    </section>
+
+    <section id="detail" class="card hidden"></section>
+  </main>
+
+  <footer id="footer" class="muted"></footer>
+  <script src="/app.js"></script>
+</body>
+</html>
