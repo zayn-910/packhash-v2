@@ -1,6 +1,6 @@
 {
   "name": "packhash",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Zayn",
   "description": "Tamper-evident packet captures, anchored on a blockchain",
   "bin": {
