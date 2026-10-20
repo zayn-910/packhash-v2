@@ -53,8 +53,8 @@ When the Wireshark installer asks whether non-superusers may capture packets, ch
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/zayn-910/packhash-v2.git
+cd packhash-v2
 npm install
 npx hardhat compile
 sudo npm link          # makes the `packhash` command available
